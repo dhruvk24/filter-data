@@ -25,7 +25,7 @@ $(":radio").on('change', function () {
 
 // FETCH CATEGORY OPTIONS
     $.ajax({
-        url: '../task-2/fetch_category.php',
+        url: 'fetch_category.php',
         success: function (response,status,xhr) {
             if(xhr.status==200){
                 let data = JSON.parse(response);

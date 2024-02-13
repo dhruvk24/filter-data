@@ -1,6 +1,6 @@
 <?php
 
-include_once('../task-2/config.php');
+include_once('config.php');
 
 $order = isset($_GET['sort']) ? $_GET['sort'] : 'asc';
 
